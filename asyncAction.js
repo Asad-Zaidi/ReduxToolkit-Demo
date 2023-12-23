@@ -56,7 +56,7 @@ const reducer = (state = initialState, action) => {
 const fetchUser = () => (dispatch) => {
     dispatch(fetchUserRequest());
     axios
-        .get('https://jsonplaceholder.typicode.com/todos')
+        .get('https://jsonplaceholder.typicode.com/users')
         .then((response) => {
             // console.log(response.data);
             const users = response.data.map((users)=>users);
