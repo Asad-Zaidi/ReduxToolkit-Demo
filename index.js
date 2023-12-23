@@ -6,6 +6,8 @@ const applyMiddleware = redux.applyMiddleware;
 const reduxLogger = require('redux-logger');
 const logger = reduxLogger.createLogger();
 
+
+
 // Action
 const CAKE_ORDER = 'CAKE_ORDER';
 const CAKE_RESTOCKED = 'CAKE_RESTOCKED';
