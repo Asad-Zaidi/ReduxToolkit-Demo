@@ -13,10 +13,7 @@ Redux Toolkit is a package that helps simplify Redux code and makes it easier to
 You can install Redux Toolkit using npm:
 
 bash
-`npm install @reduxjs/toolkit`
-
-This will import all of the toolkit functions into the `reduxToolkit` object. You can then access individual functions like this:  
-This will install the core library along with all of its dependencies. If you want to use only specific parts of Redux Toolkit, consider installing.
+'npm install @reduxjs/toolkit'
 
 ## Contributing  
 
