@@ -94,7 +94,6 @@ const IceCreamReducer = (state = initialIceCreamState, action) => {
     }
 };
 
-
 const rootReducer = combineReducers({
     Cake: CakeReducer,
     IceCream: IceCreamReducer,
@@ -103,7 +102,6 @@ const rootReducer = combineReducers({
 // Store
 const store = createStore(rootReducer, applyMiddleware(logger));
 console.log('Initial State', store.getState());
-
 
 const unsubscribe = store.subscribe(() =>{})
 // const unsubscribe = store.subscribe(() =>
