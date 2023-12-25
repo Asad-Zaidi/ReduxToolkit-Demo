@@ -40,7 +40,6 @@ function restockIceCream(qty = 1) {
     }
 }
 
-
 // const innitialState = {
 //     numberOfCakes: 20,
 //     numberOfIceCreams: 20,
