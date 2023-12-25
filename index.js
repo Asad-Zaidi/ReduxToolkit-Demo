@@ -118,6 +118,7 @@ const actions = bindActionCreators(
     { orderCake, restockCake, orderIceCream, restockIceCream },
     store.dispatch
 );
+
 actions.orderCake();
 actions.orderCake();
 actions.orderCake();
@@ -125,6 +126,5 @@ actions.restockCake(3);
 actions.orderIceCream();
 actions.orderIceCream();
 actions.restockIceCream(3);
-
 
 unsubscribe()
